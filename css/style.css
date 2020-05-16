@@ -1,0 +1,170 @@
+body {
+    font-family: Montserrat;
+}
+
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+p{
+    font-family: Kaushan Script;
+    font-size: 19pt;
+}
+
+hr {
+    background-color: red;
+    height: 2px;
+    width: 50px;
+    margin-top: 30px;
+}
+
+.am{
+    font-size: 22pt;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px black, 0 0 1em dodgerblue;
+    text-align: center;
+}
+
+.log {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.boxout{
+    display:flex;
+    justify-content: space-around;
+}
+
+.boxlogo{
+    display:flex;
+    justify-content: space-between;
+    color: #95e1d3;   
+}
+
+.nav {
+    display: flex;
+    padding-top: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.box{
+    width: 380px;
+    height: 470px;
+    background-size: cover;
+}
+.box:hover{
+    box-shadow: 10px 10px 0px 0px aqua;
+}
+.box2{
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(gold,lime);
+    opacity: 0.5;
+    display: none;
+    position: relative;
+}
+.box:hover .box2{
+    display: block;
+}
+
+.mini:hover {
+ background-color: blue;
+}
+.box21{
+    width: 150px;
+    height: 55px;
+    background: #fce38a;
+    top: 200px;
+    left: 120px;
+    position:relative;
+}
+.mini{
+    width: 25%;
+    height:100%;
+    float:left;
+    box-sizing: border-box;
+    border-right: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu {
+	
+}
+.top-menu li{
+	margin: 0 14px;
+    position:relative;
+}
+.top-menu li:hover{
+    text-decoration: underline;
+}
+.top-menu li a:hover{
+    color: crimson;
+}
+
+.top-menu li a{
+	font-size: 1.2em;
+	font-weight: bold;
+    color:#95e1d3;
+    padding:5px 7px;
+    text-decoration:none;
+    display:block;
+}
+.box123{
+    display:flex;
+    justify-content: space-around;
+}
+.text2{
+    justify-content: space-between
+}
+
+.block {
+    display:flex;
+    justify-content: space-around;
+    max-width: 383px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img {
+    margin-top: 0px;
+}
+.head {
+    font-family: Montserrat;
+    font-size: 16pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.cont {
+    font-family: Arial;
+    font-size: 10pt;
+    margin-top: 0px;   
+}
+
+.txt {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.main_txt {
+    color: gray;
+    text-align: center;
+    margin-top: 30px;    
+}
+
+.foot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foot_txt {
+    color: gray;
+    text-align: center;
+}

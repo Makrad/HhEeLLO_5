@@ -1,0 +1,93 @@
+p{
+    font-family: BeautifulHeart;
+    font-size: 19pt;
+}
+.am{
+    font-size: 22pt;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px black, 0 0 1em dodgerblue;
+}
+.boxout{
+    display:flex;
+    justify-content: space-around;
+}
+.boxlogo{
+    display:flex;
+    justify-content: space-between;
+    color: aqua;
+    
+    
+}
+.box{
+    width: 380px;
+    height: 470px;
+    background-size: cover;
+}
+.box:hover{
+    box-shadow: 10px 10px 0px 0px aqua;
+}
+.box2{
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(gold,lime);
+    opacity: 0.5;
+    display: none;
+    position: relative;
+}
+.box:hover .box2{
+    display: block;
+}
+
+.mini:hover {
+ background-color: blue;
+}
+.box21{
+    width: 150px;
+    height: 55px;
+    background: #fce38a;
+    top: 200px;
+    left: 120px;
+    position:relative;
+}
+.mini{
+    width: 25%;
+    height:100%;
+    float:left;
+    box-sizing: border-box;
+    border-right: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu {
+	top: 0;
+}
+.top-menu li{
+    list-style:none;
+    display:inline-block;
+	margin: 0 70px;
+    position:relative;
+}
+.top-menu li:hover{
+    text-decoration: underline;
+}
+.top-menu li a:hover{
+    color: crimson;
+}
+
+.top-menu li a{
+	font-size: 1.8em;
+	font-weight: bold;
+    color:dodgerblue;
+    padding:5px 7px;
+    text-decoration:none;
+    display:block;
+}
+.box123{
+    display:flex;
+    justify-content: space-around;
+}
+.text2{
+    justify-content: space-between
+}
